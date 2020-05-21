@@ -10,7 +10,7 @@ async function myEvent(event) {
     key,
     prop: name
   })
-
+  console.log(event)
   return
 }
 
